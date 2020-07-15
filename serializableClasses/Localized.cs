@@ -11,6 +11,7 @@ namespace Modinfo
         public String French { get; set; }
         public String German { get; set; }
         public String Italian { get; set; }
+        public String Japanese { get; set; }
         public String Korean { get; set; }
         public String Polish { get; set; }
         public String Russian { get; set; }
