@@ -1,0 +1,50 @@
+{
+    "Version": "1",
+    "ModID": "ModID_myMod",
+    "IncompatibleIds": [
+        "ModId",
+        "ModId",
+        "ModId"
+    ],
+    "ModDependencies": [
+        "ModId",
+        "ModId",
+        "ModId"
+    ],
+    "Category": {
+        "English": "String Category",
+        "German": "String Category"
+    },
+    "ModName": {
+        "English": "String Modname",
+        "German": "String Modname"
+    },
+    "Description": {
+        "English": "String Description",
+        "German": "String Description"
+    },
+    "KnownIssues": [
+        {
+            "English": "String Issue 0",
+            "German": "String Issue 0"
+        },
+        {
+            "English": "String Issue 1",
+            "German": "String Issue 1"
+        }
+    ],
+    "DLCDependencies": [
+        "Anarchist",
+        "SunkenTreasures",
+        "Botanica",
+        "ThePassage",
+        "SeatOfPower",
+        "BrightHarvest",
+        "LandOfLions",
+        "Christmas",
+        "AmusementPark",
+        "CityLife"
+    ],
+    "Creator" : "String CreatorName",
+    "CreatorContact": "https://discord.gg/YTQGDFK"
+}

@@ -1,0 +1,51 @@
+Localized:
+    Chinese         String Simplified Chinese Text
+    English         String English Text
+    French          String French Text
+    German          String German Text
+    Italian         String Italian Text
+    Korean          String Korean Text
+    Polish          String Polish Text
+    Russian         String Russian Text
+    Spanish         String Spanish Text
+    Taiwanese       String Traditional Chinese Text
+
+Modinfo
+
+    Version             String VersionNumber
+    ModID               String ModID (has to be unique, the best is to use the creator name as a prefix.)  
+    IncompatibleIDs     String[] Ids of mods that are incompatible
+    ModDependencies     String[] Ids of Mods that are required for your mod to run properly. 
+    Category            Localized Category, i.e. "Gameplay" or "Adjustments"
+    ModName             Localized Modname, i.e. "Harborlife" or "Arctic Variable Resources"
+    Description         Localized Description
+    KnownIssues         Localized[] KnownIssues
+    DLCDependencies     String DlcId - The following IDs are used: 
+                            Anarchist
+                            SunkenTreasures
+                            Botanica
+                            ThePassage
+                            SeatOfPower
+                            BrightHarvest
+                            LandOfLions
+                            Christmas
+                            AmusementPark
+                            CityLife
+
+    Creator:            String CreatorName
+    CreatorContact      String Link to contact the creator
+
+CollectionInfo
+    
+    Name                String Name of this CollectionInfo
+    Version             String Version 
+    LastUpdate          String Date of last update in american Style: mm/dd/yyyy
+    Creators            String[] All Creators
+    Translators         String[] Translators
+    Thanks              String[] Everyone you want to give thanks to
+    ModIds              ModIdActiveTouple[] All included mods
+
+ModIdActiveTouple
+
+    ModId               String ModID of the included mod
+    Active              bool that says whether this mod is active. 
