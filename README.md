@@ -8,10 +8,13 @@
 | Fishboss       | 850.000       |       859.999 |
 | Lady Meridonia | 1.777.650.000 | 1.777.659.999 |
 | DonnyBresko    | 1.800.000.100 | 1.800.002.099 |
+
 | Spice it Up    | 8855000       | 8856999       |
 | ""             | 900000        | 930000        |
 | ""             | 976000        | 976999        |
 | ""             | 99334100      | 99334199      |
+
+
 
 If you want to contribute your range, we suggest the following:
 
