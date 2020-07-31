@@ -6,6 +6,7 @@
 [Ubisoft](https://anno-union.com/en/new-anno-union-history-edition-update-anno-afternoon/) has given us an official *safe* range in which we can safely choose new GUIDs! 
 
 You can pick from the following *safe* GUID range: **1337471142 - 2147483647**
+
 Older Mods like Spice it up will still use *older and unsafe* GUID-Ranges, but they will not be changed due to savegame compability. 
 
 If you need help adding your range or want to talk, you can join us on [Discord](https://discord.gg/KEVaVby)
