@@ -28,7 +28,7 @@ If you need help adding your range or want to talk, you can join us on [Discord]
 If you want to contribute your range, we suggest the following:
 
 1. Fork the [official repository](https://github.com/taubenangriff/Modinfo/fork)
-2. Add your range to the table of this document on your fork
+2. Edit the readme on your fork and add your range to the table.
 3. Submit a [pull request](https://github.com/taubenangriff/Modinfo/pulls)
 
 
