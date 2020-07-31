@@ -14,7 +14,6 @@ If you need help adding your range or want to talk, you can join us on [Discord]
 | User           | Start ID      |        End ID |
 | :------------- | :------------ | ------------: |
 | Fishboss       | 850.000       |       859.999 |
-
 | Spice it Up    | 900000        | 930000        |
 | Spice it Up    | 976000        | 976999        |
 | Spice it Up    | 8855000       | 8857999       |
