@@ -14,9 +14,10 @@ If you need help adding your range or want to talk, you can join us on [Discord]
 | User           | Start ID      |        End ID |
 | :------------- | :------------ | ------------: |
 | Fishboss       | 850.000       |       859.999 |
-| Spice it Up    | 8855000       | 8856999       |
+
 | Spice it Up    | 900000        | 930000        |
 | Spice it Up    | 976000        | 976999        |
+| Spice it Up    | 8855000       | 8857999       |
 | Spice it Up    | 99334100      | 99334199      |
 | Lady Meridonia | 1.777.650.000 | 1.777.659.999 |
 | DonnyBresko    | 1.800.000.100 | 1.800.002.099 |
