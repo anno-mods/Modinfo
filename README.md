@@ -19,7 +19,7 @@ If you need help adding your range or want to talk, you can join us on [Discord]
 | Spice it Up    | 976000        | 976999        |
 | Spice it Up    | 8855000       | 8857999       |
 | Spice it Up 2.8| 99334100      | 99334199      |
-| Spice it Up 3.0| 1.440.133.000 | 1.440.133.010 |
+| Spice it Up 3.0| 1.440.133.000 | 1.440.133.039 |
 | Lady Meridonia | 1.777.650.000 | 1.777.659.999 |
 | DonnyBresko    | 1.800.000.100 | 1.800.002.099 |
 
