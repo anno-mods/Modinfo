@@ -34,6 +34,7 @@ Modinfo
 
     Creator:            String CreatorName
     CreatorContact      String Link to contact the creator
+    Image               String Base64 Representation of an image to be used in Mod Managers
 
 CollectionInfo
     
