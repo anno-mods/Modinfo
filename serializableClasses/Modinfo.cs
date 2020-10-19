@@ -17,5 +17,6 @@ namespace Modinfo
         public String[] DLCDependencies { get; set; }
         public String CreatorName { get; set; }
         public String CreatorContact { get; set; }
+        public String Image { get; set; }
     }
 }
