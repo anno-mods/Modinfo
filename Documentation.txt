@@ -44,19 +44,19 @@ ModIdActiveTouple
 
 DLC
 
-    String DLC - the following IDs are used: 
-        Anarchist
-        SunkenTreasures
-        Botanica
-        ThePassage
-        SeatOfPower
-        BrightHarvest
-        LandOfLions
-        Christmas
-        AmusementPark
-        CityLife
+    DLC                 String DLC - the following IDs are used: 
+                            Anarchist
+                            SunkenTreasures
+                            Botanica
+                            ThePassage
+                            SeatOfPower
+                            BrightHarvest
+                            LandOfLions
+                            Christmas
+                            AmusementPark
+                            CityLife
 
-    String Dependant - the folling IDs are used: 
-        required
-        partly 
-        atLeastOneRequired
+    Dependant           String Dependant - the folling IDs are used: 
+                            required
+                            partly 
+                            atLeastOneRequired
