@@ -22,6 +22,7 @@
 | Serp's Mods     | 1.500.000.000 | 1.500.010.000 |
 | Lady Meridonia  | 1.777.650.000 | 1.777.659.999 |
 | DonnyBresko     | 1.800.000.100 | 1.800.002.099 |
+| Incipium        | 1.998.000.000 | 1.998.999.999 |
 
 [Ubisoft](https://anno-union.com/en/new-anno-union-history-edition-update-anno-afternoon/) has given us an official *safe* range in which we can safely choose new GUIDs! 
 
