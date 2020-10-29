@@ -1,5 +1,5 @@
 {
-  "Version": "1",
+  "Version": "1.0.0",
   "ModID": "ModID_myMod",
   "IncompatibleIds": [
     "ModId",
@@ -62,17 +62,17 @@
     }
   ],
   "DLCDependencies": [
-    "Anarchist",
-    "SunkenTreasures",
-    "Botanica",
-    "ThePassage",
-    "SeatOfPower",
-    "BrightHarvest",
-    "LandOfLions",
-    "Christmas",
-    "AmusementPark",
-    "CityLife"
+    {
+      "DLC": "Anarchist",
+      "Dependant": "partly"
+    },
+    {
+      "DLC": "CityLife",
+      "Dependant": "partly"
+    }
   ],
   "CreatorName": "Name",
-  "CreatorContact": "ContactLink"
+  "CreatorContact": "ContactLink",
+  "Image": null
+  
 }
