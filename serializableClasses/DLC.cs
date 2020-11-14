@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Modinfo
+namespace SerializableModinfo
 {
-    class DLC
+    class Dlc
     {
         //use: "Anarchist", "SunkenTreasures", "Botanica", "ThePassage", "SeatOfPower", "BrightHarvest", "LandOfLions", "Christmas", "AmusementPark, "CityLife"
         public String DLC { get; set; }

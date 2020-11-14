@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Modinfo
+namespace SerializableModinfo
 {
     class Localized
     {

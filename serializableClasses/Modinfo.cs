@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Modinfo
+namespace SerializableModinfo
 {
     class Modinfo
     {
@@ -14,7 +14,7 @@ namespace Modinfo
         public Localized ModName { get; set; }
         public Localized Description { get; set; }
         public Localized[] KnownIssues { get; set; }
-        public DLC[] DLCDependencies { get; set; }
+        public Dlc[] DLCDependencies { get; set; }
         public String CreatorName { get; set; }
         public String CreatorContact { get; set; }
         public String Image { get; set; }

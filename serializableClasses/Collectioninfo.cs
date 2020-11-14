@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Modinfo
+namespace SerializableModinfo
 {
     class Collectioninfo
     {
+        public Collectioninfo() { }
         public String Name { get; set; }
         public String Version { get; set; }
         public String LastUpdate { get; set; }
