@@ -41,8 +41,9 @@ ModIdActiveTouple
 
     ModId               String ModID of the included mod
     Active              bool that says whether this mod is active. 
+    Version             String Version of the Mod
 
-DLC
+Dlc
 
     DLC                 String DLC - the following IDs are used: 
                             Anarchist
