@@ -6,6 +6,7 @@ namespace SerializableModinfo
 {
     class Modinfo
     {
+        public Modinfo() { }
         public String Version { get; set; }
         public String ModID { get; set; }
         public String[] IncompatibleIds { get; set; }

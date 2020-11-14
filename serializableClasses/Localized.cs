@@ -6,6 +6,7 @@ namespace SerializableModinfo
 {
     class Localized
     {
+        public Localized() { }
         public String Chinese { get; set; }
         public String English { get; set; }
         public String French { get; set; }

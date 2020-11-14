@@ -6,6 +6,7 @@ namespace SerializableModinfo
 {
     class Dlc
     {
+        public Dlc() { }
         //use: "Anarchist", "SunkenTreasures", "Botanica", "ThePassage", "SeatOfPower", "BrightHarvest", "LandOfLions", "Christmas", "AmusementPark, "CityLife"
         public String DLC { get; set; }
         //use: "required", "partly", "atLeastOneRequired"
