@@ -12,7 +12,7 @@ Localized:
 
 Modinfo
 
-    Version             String VersionNumber
+    Version             String VersionNumber - stick to the convention major.minor or major.minor.patch
     ModID               String ModID (has to be unique, the best is to use the creator name as a prefix.)  
     IncompatibleIDs     String[] Ids of mods that are incompatible
     ModDependencies     String[] Ids of Mods that are required for your mod to run properly. 

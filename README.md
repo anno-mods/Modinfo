@@ -19,8 +19,12 @@
 | Spice it Up 3.0 | 1.440.133.000 | 1.440.133.999 |
 | Mod_Taro        | 1.357.900.000 | 1.357.999.999 |
 | New Horizons    | 1.414.000.000 | 1.414.999.999 |
+| Serp's Mods     | 1.500.000.000 | 1.500.010.000 |
+| Fam             | 1.660.010.000 | 1.660.019.999 |
 | Lady Meridonia  | 1.777.650.000 | 1.777.659.999 |
 | DonnyBresko     | 1.800.000.100 | 1.800.002.099 |
+| Incipium        | 1.998.000.000 | 1.998.999.999 |
+| Ghostbuster     | 2.000.000.000 | 2.000.099.999 |
 
 [Ubisoft](https://anno-union.com/en/new-anno-union-history-edition-update-anno-afternoon/) has given us an official *safe* range in which we can safely choose new GUIDs! 
 
