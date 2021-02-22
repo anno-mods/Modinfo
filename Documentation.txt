@@ -56,6 +56,9 @@ Dlc
                             Christmas
                             AmusementPark
                             CityLife
+                            Docklands
+                            Tourism
+                            Highlife
 
     Dependant           String Dependant - the folling IDs are used: 
                             required
