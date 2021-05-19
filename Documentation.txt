@@ -59,6 +59,9 @@ Dlc
                             Docklands
                             Tourism
                             Highlife
+                            VehicleSkins
+                            VibrantCity
+                            PedestrianZone
 
     Dependant           String Dependant - the folling IDs are used: 
                             required
