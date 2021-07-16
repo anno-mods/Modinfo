@@ -7,6 +7,7 @@
 | :-------------- | ------------: | ------------: |
 | Fishboss        |       850.000 |       859.999 |
 | Spice it Up     |       900.000 |       930.000 |
+| Alucard         |       940.000 |       940.750 |
 | Spice it Up     |       976.000 |       976.999 |
 | New Horizons    |     1.337.000 |     1.447.999 |
 | Spice it Up     |     8.855.000 |     8.857.999 |
@@ -28,6 +29,7 @@
 | JohnSpoc        | 1.888.888.000 | 1.888.988.000 |
 | Incipium        | 1.998.000.000 | 1.998.999.999 |
 | Ghostbuster     | 2.000.000.000 | 2.000.099.999 |
+| XAN             | 2.000.150.000 | 2.000.259.999 |
 
 [Ubisoft](https://anno-union.com/en/new-anno-union-history-edition-update-anno-afternoon/) has given us an official *safe* range in which we can safely choose new GUIDs! 
 
