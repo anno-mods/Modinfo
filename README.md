@@ -19,7 +19,7 @@
 | Harlekin        | 1.337.472.000 | 1.337.472.999 |
 | muggenstuermer  | 1.337.500.000 | 1.337.510.000 |
 | Pawel Malecki   | 1.400.000.000 | 1.400.099.999 |
-| Spice it Up 3.0 | 1.440.133.000 | 1.440.134.499 |
+| Spice it Up 3.0 | 1.440.133.000 | 1.440.134.699 |
 | Mod_Taro        | 1.357.900.000 | 1.357.999.999 |
 | Lethani         | 1.337.499.000 | 1.337.499.999 |
 | New Horizons    | 1.414.000.000 | 1.414.999.999 |
@@ -31,6 +31,7 @@
 | Incipium        | 1.998.000.000 | 1.998.999.999 |
 | Ghostbuster     | 2.000.000.000 | 2.000.099.999 |
 | XAN             | 2.000.150.000 | 2.000.259.999 |
+| Phloup          | 2.122.330.000 | 2.122.339.999
 
 [Ubisoft](https://anno-union.com/en/new-anno-union-history-edition-update-anno-afternoon/) has given us an official *safe* range in which we can safely choose new GUIDs! 
 
