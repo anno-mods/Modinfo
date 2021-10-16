@@ -18,14 +18,13 @@
 | New Horizons    |   133.700.000 |   133.700.999 |
 | Harlekin        | 1.337.472.000 | 1.337.472.999 |
 | muggenstuermer  | 1.337.500.000 | 1.337.510.000 |
-| Spice it Up 3.0 | 1.440.133.000 | 1.440.133.999 |
-| Spice it Up 3.0 | 1.440.134.000 | 1.440.134.099 |
-| Spice it Up 3.0 | 1.440.134.100 | 1.440.134.199 |
-| Undead Uprising | 1.440.134.200 | 1.440.134.299 |
+| Pawel Malecki   | 1.400.000.000 | 1.400.099.999 |
+| Spice it Up 3.0 | 1.440.133.000 | 1.440.134.699 |
 | Mod_Taro        | 1.357.900.000 | 1.357.999.999 |
 | Lethani         | 1.337.499.000 | 1.337.499.999 |
 | New Horizons    | 1.414.000.000 | 1.414.999.999 |
 | Serp's Mods     | 1.500.000.000 | 1.500.010.000 |
+| Jakob           | 1.500.010.001 | 1.500.010.999 |
 | Fam             | 1.660.010.000 | 1.660.019.999 |
 | Lady Meridonia  | 1.777.650.000 | 1.777.659.999 |
 | DonnyBresko     | 1.800.000.100 | 1.800.002.099 |
@@ -33,6 +32,7 @@
 | Incipium        | 1.998.000.000 | 1.998.999.999 |
 | Ghostbuster     | 2.000.000.000 | 2.000.099.999 |
 | XAN             | 2.000.150.000 | 2.000.259.999 |
+| Phloup          | 2.122.330.000 | 2.122.339.999
 
 [Ubisoft](https://anno-union.com/en/new-anno-union-history-edition-update-anno-afternoon/) has given us an official *safe* range in which we can safely choose new GUIDs! 
 
