@@ -60,8 +60,11 @@ Dlc
                             Tourism
                             Highlife
                             VehicleSkins
-                            VibrantCity
                             PedestrianZone
+                            VibrantCity
+                            SeedsOfChange
+                            EmpireOfTheSkies
+                            NewWorldRising                           
 
     Dependant           String Dependant - the folling IDs are used: 
                             required
