@@ -11,6 +11,16 @@
     "ModId",
     "ModId"
   ],
+  "LoadAfterIds": [
+    "ModId",
+    "ModId",
+    "ModId"
+  ],
+  "DeprecateIds": [
+    "ModId",
+    "ModId",
+    "ModId"
+  ],
   "Category": {
     "Chinese": null,
     "English": "String Category",
@@ -72,7 +82,5 @@
     }
   ],
   "CreatorName": "Name",
-  "CreatorContact": "ContactLink",
-  "Image": null
-  
+  "CreatorContact": "ContactLink"
 }

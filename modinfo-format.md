@@ -1,11 +1,15 @@
 # modinfo.json Format
 
+The [modloader](https://github.com/jakobharder/anno1800-mod-loader#readme) integrated with GU17 uses the *loading relevant* information.
+Additionally, English `Name` and `Category` are used.
+
 - Loading Relevant
   - [ModID](#modid)
   - [Version](#Version)
   - [ModDependencies](#moddependencies)
   - [LoadAfterIds](#loadafterids)
   - [IncompatibleIds](#incompatibleids)
+  - [DeprecateIds](#deprecateids)
 - Localized Information
   - [ModName](#modname)
   - [Category](#category)
@@ -16,6 +20,8 @@
   - [Creator](#creator)
   - [CreatorContact](#creatorcontact)
   - [Image](#image) (deprecated)
+- Other Files
+  - [Banner Image](#banner-image)
 - [Unused Formats](#unused-formats)
 
 ## Loading Relevant
@@ -24,59 +30,87 @@
 
 A unique identifier for your mod. You can use the same characters as for folder names (i.e. `:`, `/` are not allowed).
 
-The `ModID` is used various features like dependencies and loading order.
-If not specified the mod folder name will be used by the modloader.
-
 Best include the creator name to avoid conflicts.
 
 ```json
 "ModID": "annofan_awesome_mod"
 ```
 
+The `ModID` is used various features like dependencies and loading order.
+If not specified the mod folder name will be used by the modloader - important to work with mods without `modinfo.json`.
+The modloader prints an error if you have a `modinfo.json` without a `ModID`.
+
 ### Version
 
 `major.minor` or `major.minor.patch`.
-
-The version is used to determine the newest mod in case of duplicates.
 
 ```json
 "Version": "1.0.1"
 ```
 
+The version is used to determine the newest mod in case of duplicates.
+
 ### ModDependencies
 
 A list of `ModID`s your mod depends on.
-
-The modloader will print warnings if a dependency is missing.
-
-Use in combination with `LoadAfterIds` if you want to depend and load after a mod.
 
 ```json
 "ModDependencies": [ "another_mod", "yet_another_mod" ]
 ```
 
+The modloader will print warnings if a dependency is missing.
+
+Use in combination with `LoadAfterIds` if you want to depend and load after a mod.
+
 ### LoadAfterIds
 
 A list of `ModID`s your wants to be loaded after.
-
-The modloader will load your mod after the mentioned mods, if they exist.
-If they don't, no errors are printed.
-
-Use `ModDependencies` if your mod requires mods to exist.
 
 ```json
 "LoadAfterIds": [ "another_mod", "yet_another_mod" ]
 ```
 
+The modloader will load your mod after the mentioned mods, if they exist.
+If they don't, no errors are printed.
+Alphabetical order will be ignored with `LoadAfterIds`.
+
+Use `ModDependencies` if your mod requires mods to exist.
+
+#### Load Last with `*`
+
+You can mark your mod to loat after all other mods by adding `*`.
+If another mod is also marked as load last, and you still want to load after it you can simply add it to the list.
+
+```json
+"LoadAfterIds": [ "*", "another_mod" ]
+```
+
+#### Alphabetical Order
+
+Loading order was previously decided by alphabetical order.
+This behavior is kept as long as there are no `LoadAfterIds` listed **AND** no other mod has your mod in their `LoadAfterIds`.
+
 ### IncompatibleIds
 
 A list of `ModID`s your mod is not compatible with.
 
-The modloader will print errors but not disable any mods based on this information.
-
 ```json
 "IncompatibleIds": [ "another_mod" ]
 ```
+
+The modloader will print errors but not disable any mods based on this information.
+
+### DeprecateIds
+
+A list of `ModID`s your mod is replacing.
+
+```json
+"DeprecateIds": [ "old_mod_id" ]
+```
+
+The modloader will simply exclude deprecated mods from loading.
+
+Note: `LoadAfterIds` and `ModDependencies` are not adjusted accordingly and may lead to issues. Use with care.
 
 ## Localized Information
 
@@ -226,6 +260,14 @@ Best use your GitHub repository.
 You can put a base64 representation of an image for mod managers.
 
 Deprecated. Better place a `banner.jpg` or `banner.png` in your mod folder.
+
+## Other Files
+
+### Banner Image
+
+A banner image (not icon) to show in mod managers can be saved as `banner.jpg` (recommended) or `banner.png` next to your `modinfo.json`.
+
+Prefer wide images, 16:9 or even wider banners.
 
 ## Unused Formats
 
