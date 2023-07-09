@@ -3,6 +3,9 @@
 The [modloader](https://github.com/jakobharder/anno1800-mod-loader#readme) integrated with GU17 uses the *loading relevant* information.
 Additionally, English `Name` and `Category` are used.
 
+Use [modinfo.json](./modinfo.json) as a template.
+Optional and `null` entries can be removed.
+
 - Loading Relevant
   - **[ModID](#modid-mandatory) (mandatory)**
   - **[Version](#Version-mandatory) (mandatory)**
@@ -117,6 +120,7 @@ Note: `LoadAfterIds` and `ModDependencies` are not adjusted accordingly and may 
 Localized entries can be translated in all languages the game supports.
 
 Mod managers should use `English` instead of empty text if the chosen language text is missing.
+Therefore English is mandatory for mandatory fields, other languages are optional.
 
 The modloader uses the English texts like `[Category] ModName` for log purposes.
 
