@@ -181,12 +181,25 @@ Use `\n` for line breaks.
 }
 ```
 
+#### Inline Markdown
+
 Start the text with `#` if you want to use Markdown.
 
 
 ```json
 "Description": {
   "English": "# Title\nParagraph\n## 2nd Level Title\nParagraph"
+}
+```
+
+#### External Markdown
+
+Start the text with `file::` if you want to specify a readme file to be shown instead.
+
+
+```json
+"Description": {
+  "English": "file::README.md"
 }
 ```
 
