@@ -4,29 +4,29 @@ The [modloader](https://github.com/jakobharder/anno1800-mod-loader#readme) integ
 Additionally, English `Name` and `Category` are used.
 
 - Loading Relevant
-  - [ModID](#modid)
-  - [Version](#Version)
-  - [ModDependencies](#moddependencies)
-  - [LoadAfterIds](#loadafterids)
-  - [IncompatibleIds](#incompatibleids)
-  - [DeprecateIds](#deprecateids)
+  - **[ModID](#modid-mandatory) (mandatory)**
+  - **[Version](#Version-mandatory) (mandatory)**
+  - [ModDependencies](#moddependencies-optional) (optional)
+  - [LoadAfterIds](#loadafterids-optional) (optional)
+  - [IncompatibleIds](#incompatibleids-optional) (optional)
+  - [DeprecateIds](#deprecateids-optional) (optional)
 - Localized Information
-  - [ModName](#modname)
-  - [Category](#category)
-  - [Description](#description)
-  - [KnownIssues](#knownissues)
+  - **[ModName](#modname-mandatory) (mandatory)**
+  - **[Category](#category-mandatory) (mandatory)**
+  - [Description](#description-optional) (optional)
+  - [KnownIssues](#knownissues-optional) (optional)
 - Non-Localized Information
-  - [DLCDependencies](#dlcdependencies)
-  - [Creator](#creator)
-  - [CreatorContact](#creatorcontact)
-  - [Image](#image) (deprecated)
+  - [DLCDependencies](#dlcdependencies-optional) (optional)
+  - [Creator](#creator-optional) (optional)
+  - [CreatorContact](#creatorcontact-optional) (optional)
+  - *[Image](#image-deprecated) (deprecated)*
 - Other Files
-  - [Banner Image](#banner-image)
+  - [Banner Image](#banner-image-optional) (optional)
 - [Unused Formats](#unused-formats)
 
 ## Loading Relevant
 
-### ModID
+### `ModID` (mandatory)
 
 A unique identifier for your mod. You can use the same characters as for folder names (i.e. `:`, `/` are not allowed).
 
@@ -40,7 +40,7 @@ The `ModID` is used various features like dependencies and loading order.
 If not specified the mod folder name will be used by the modloader - important to work with mods without `modinfo.json`.
 The modloader prints an error if you have a `modinfo.json` without a `ModID`.
 
-### Version
+### `Version` (mandatory)
 
 `major.minor` or `major.minor.patch`.
 
@@ -50,7 +50,7 @@ The modloader prints an error if you have a `modinfo.json` without a `ModID`.
 
 The version is used to determine the newest mod in case of duplicates.
 
-### ModDependencies
+### `ModDependencies` (optional)
 
 A list of `ModID`s your mod depends on.
 
@@ -62,7 +62,7 @@ The modloader will print warnings if a dependency is missing.
 
 Use in combination with `LoadAfterIds` if you want to depend and load after a mod.
 
-### LoadAfterIds
+### `LoadAfterIds` (optional)
 
 A list of `ModID`s your wants to be loaded after.
 
@@ -90,7 +90,7 @@ If another mod is also marked as load last, and you still want to load after it 
 Loading order was previously decided by alphabetical order.
 This behavior is kept as long as there are no `LoadAfterIds` listed **AND** no other mod has your mod in their `LoadAfterIds`.
 
-### IncompatibleIds
+### `IncompatibleIds` (optional)
 
 A list of `ModID`s your mod is not compatible with.
 
@@ -100,7 +100,7 @@ A list of `ModID`s your mod is not compatible with.
 
 The modloader will print errors but not disable any mods based on this information.
 
-### DeprecateIds
+### `DeprecateIds` (optional)
 
 A list of `ModID`s your mod is replacing.
 
@@ -139,11 +139,9 @@ Example with complete list of languages:
 
 Note: `Chinese` is simplified and `Taiwanese` traditional.
 
-### ModName
+### `ModName` (mandatory)
 
 The localized name of your mod.
-
-
 
 ```json
 "ModName": {
@@ -152,7 +150,7 @@ The localized name of your mod.
 }
 ```
 
-### Category
+### `Category` (mandatory)
 
 The localized category of your mod.
 
@@ -169,7 +167,7 @@ Here are some recommended category names. They are not standardized by the modlo
 | Skin | Paintbrush skins, Shift+V variants. Everything without it's own construction menu entry.
 | UI | Construction menu, icon changes.
 
-### Description
+### `Description` (optional)
 
 A localized text description of your mod.
 
@@ -203,7 +201,7 @@ Start the text with `file::` if you want to specify a readme file to be shown in
 }
 ```
 
-### KnownIssues
+### `KnownIssues` (optional)
 
 A list of localized issues.
 
@@ -222,7 +220,7 @@ A list of localized issues.
 
 ## Non-Localized Information
 
-### DLCDependencies
+### `DLCDependencies` (optional)
 
 A list of DLC dependencies.
 
@@ -258,7 +256,7 @@ Dependant Type | Meaning
 - Further cDLCs:
   - `DragonGarden`, `Fiesta`
 
-### Creator
+### `Creator` (optional)
 
 Your name.
 
@@ -266,7 +264,7 @@ Your name.
 "Creator": "annofan"
 ```
 
-### CreatorContact
+### `CreatorContact` (optional)
 
 A link to contact you, e.g. in case of bugs.
 
@@ -276,7 +274,7 @@ Best use your GitHub repository.
 "CreatorContact": "https://github.com/anno-mods/Modinfo"
 ```
 
-### Image
+### `Image` (deprecated)
 
 You can put a base64 representation of an image for mod managers.
 
@@ -284,7 +282,7 @@ Deprecated. Better place a `banner.jpg` or `banner.png` in your mod folder.
 
 ## Other Files
 
-### Banner Image
+### Banner Image (optional)
 
 A banner image (not icon) to show in mod managers can be saved as `banner.jpg` (recommended) or `banner.png` next to your `modinfo.json`.
 
