@@ -243,12 +243,20 @@ Dependant Type | Meaning
 
 #### List of DLCs
 
-- `Anarchist`
-- Season 1: `SunkenTreasures`, `Botanica`, `ThePassage`
-- Season 2: `SeatOfPower`, `BrightHarvest`, `LandOfLions`
-- Season 3: `Docklands`, `Tourism`, `Highlife`
-- Season 4: `SeedsOfChange`, `EmpireOfTheSkies`, `NewWorldRising`
-- Cosmetic: `Christmas`, `AmusementPark`, `CityLife`, `VehicleSkins`, `PedestrianZone`, `VibrantCity`
+- Season 1:
+  - `SunkenTreasures`, `Botanica`, `ThePassage`
+  - `Anarchist`, `Christmas`
+- Season 2:
+  - `SeatOfPower`, `BrightHarvest`, `LandOfLions`
+  - `AmusementPark`, `CityLife`
+- Season 3:
+  - `Docklands`, `Tourism`, `Highlife`
+  - `VehicleSkins`, `PedestrianZone`, `VibrantCity`
+- Season 4:
+  - `SeedsOfChange`, `EmpireOfTheSkies`, `NewWorldRising`
+  - `SeasonalDecorations`, `IndustryOrnaments`, `OldTown`
+- Further cDLCs:
+  - `DragonGarden`, `Fiesta`
 
 ### Creator
 
