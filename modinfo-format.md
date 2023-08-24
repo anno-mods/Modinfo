@@ -281,6 +281,8 @@ Best use your GitHub repository.
 
 ### `ModioResourceId` (optional)
 
+The id of your mod on mod.io
+
 ```json
 "ModioResourceId": "123456"
 ```
