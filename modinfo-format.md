@@ -284,7 +284,7 @@ Best use your GitHub repository.
 The id of your mod on mod.io
 
 ```json
-"ModioResourceId": "123456"
+"ModioResourceId": 123456
 ```
 
 You can find a mods resourceID on your modio Mod page on the right panel, where it is listed as the last value:
