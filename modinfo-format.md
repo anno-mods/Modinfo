@@ -22,6 +22,7 @@ Optional and `null` entries can be removed.
   - [DLCDependencies](#dlcdependencies-optional) (optional)
   - [Creator](#creator-optional) (optional)
   - [CreatorContact](#creatorcontact-optional) (optional)
+  - [ModioResourceId](#ModioResourceId-optional) (optional)
   - *[Image](#image-deprecated) (deprecated)*
 - Other Files
   - [Banner Image](#banner-image-optional) (optional)
@@ -277,6 +278,17 @@ Best use your GitHub repository.
 ```json
 "CreatorContact": "https://github.com/anno-mods/Modinfo"
 ```
+
+### `ModioResourceId` (optional)
+
+The id of your mod on mod.io
+
+```json
+"ModioResourceId": 123456
+```
+
+You can find a mods resourceID on your modio Mod page on the right panel, where it is listed as the last value:
+![image](https://github.com/anno-mods/Modinfo/assets/51975164/1ac2602e-1452-4f73-9628-0a61893785eb)
 
 ### `Image` (deprecated)
 
