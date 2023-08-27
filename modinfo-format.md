@@ -147,6 +147,7 @@ Note: `Chinese` is simplified and `Taiwanese` traditional.
 ### `ModName` (mandatory)
 
 The localized name of your mod.
+Only English is mandatory, other languages are optional.
 
 ```json
 "ModName": {
@@ -158,6 +159,7 @@ The localized name of your mod.
 ### `Category` (mandatory)
 
 The localized category of your mod.
+Only English is mandatory, other languages are optional.
 
 Here are some recommended category names. They are not standardized by the modloader or mod managers to group (yet?).
 
