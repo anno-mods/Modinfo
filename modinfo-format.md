@@ -304,6 +304,21 @@ A banner image (not icon) to show in mod managers can be saved as `banner.jpg` (
 
 Prefer wide images, 16:9 or even wider banners.
 
+## Minimal Example
+
+```json
+{
+  "ModID": "kim-overhaul-ships",
+  "Version": "2.1.3",
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Overhaul Ships"
+  }
+}
+```
+
 ## Unused Formats
 
 CollectionInfo
