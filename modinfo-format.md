@@ -8,7 +8,7 @@ Optional and `null` entries can be removed.
 
 - Loading Relevant
   - **[ModID](#modid-mandatory) (mandatory)**
-  - **[Version](#Version-mandatory) (mandatory)**
+  - **[Version](#version-mandatory) (mandatory)**
   - [ModDependencies](#moddependencies-optional) (optional)
   - [LoadAfterIds](#loadafterids-optional) (optional)
   - [IncompatibleIds](#incompatibleids-optional) (optional)
@@ -70,29 +70,40 @@ Use in combination with `LoadAfterIds` if you want to depend and load after a mo
 
 A list of `ModID`s your wants to be loaded after.
 
+Loading happens in 3 phases:
+
+1. Load after phase: mods ordered by `LoadAfterIds`
+2. Alphabetical phase: mods without `LoadAfterIds` in alphabetical order
+3. Load last phase: mods marked with `*` ordered by `LoadAfterIds`
+
+#### 1. Load After Phase
+
 ```json
 "LoadAfterIds": [ "another_mod", "yet_another_mod" ]
 ```
 
 The modloader will load your mod after the mentioned mods, if they exist.
 If they don't, no errors are printed.
-Alphabetical order will be ignored with `LoadAfterIds`.
+Alphabetical order will be ignored if your mod uses `LoadAfterIds` or is mentioned in another mod with `LoadAfterIds`.
 
-Use `ModDependencies` if your mod requires mods to exist.
+Use `ModDependencies` if your mod requires mods to exist but the order care about their loading order.
 
-#### Load Last with `*`
+#### 2. Alphabetical Phase
 
-You can mark your mod to loat after all other mods by adding `*`.
-If another mod is also marked as load last, and you still want to load after it you can simply add it to the list.
+Loading order was previously decided by alphabetical order.
+This behavior is kept as long as there are no `LoadAfterIds` listed **AND** no other mod has your mod in their `LoadAfterIds`.
+
+DO NOT rely on this behavior.
+
+#### 3. Load Last Phase with `*`
+
+Mods with `*` as an ID in their `LoadAfterIds` move to the *load last phase*.
 
 ```json
 "LoadAfterIds": [ "*", "another_mod" ]
 ```
 
-#### Alphabetical Order
-
-Loading order was previously decided by alphabetical order.
-This behavior is kept as long as there are no `LoadAfterIds` listed **AND** no other mod has your mod in their `LoadAfterIds`.
+Declaring order between mods within this is possible as long as both mods are marked with `*`.
 
 ### `IncompatibleIds` (optional)
 
