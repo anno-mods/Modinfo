@@ -160,6 +160,8 @@ Note: `Chinese` is simplified and `Taiwanese` traditional.
 The localized name of your mod.
 Only English is mandatory, other languages are optional.
 
+Use only characters allowed for folder names to keep compatibility (i.e. `:`, `/` are not allowed).
+
 ```json
 "ModName": {
   "English": "Beautiful Houses",
@@ -171,6 +173,8 @@ Only English is mandatory, other languages are optional.
 
 The localized category of your mod.
 Only English is mandatory, other languages are optional.
+
+Use only characters allowed for folder names to keep compatibility (i.e. `:`, `/` are not allowed).
 
 Here are some recommended category names. They are not standardized by the modloader or mod managers to group (yet?).
 
